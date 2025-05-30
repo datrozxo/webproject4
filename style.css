@@ -1,0 +1,119 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cinzel+Decorative&display=swap");
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f1ec; /* light pink */
+    font-family: "Times New Roman", serif;
+    color: #2d2d2d;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+main {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 1em 0;
+    background-color: #d8ecf3;
+}
+
+nav a {
+    text-decoration: none;
+    color: #7b2c2c;
+    font-weight: bold;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    margin: 1em 0;
+}
+
+.image-wrap {
+    float: left;
+    margin: 0 1.5em 1em 0;
+}
+
+footer {
+    background-color: #d8ecf3;
+    padding: 1.5em;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 2em;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #7b2c2c;
+    font-weight: bold;
+}
+
+
+/* Responsive Flex Example */
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 2em 0;
+}
+
+.flex-row > div {
+    flex: 1 1 45%;
+    min-width: 200px;
+}
+
+/* Typography rules */
+article {
+    max-width: 50em;
+    margin: 0 auto;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+/* Utility */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
